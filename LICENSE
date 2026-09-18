@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 cowgrandpaofcows
+Copyright (c) 2026 UTAU_VChat Project
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,29 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## 附加说明（非 MIT 条款的一部分，仅为澄清第三方权利）
+
+本 MIT 许可证**仅适用于本项目的原创源代码**（`speak.py`、`gui.py`、`zh.py`、
+`refstyle.py`、`renderer/Program.cs`、`run.bat` 及文档等）。
+
+以下第三方组件的版权与许可**归其各自作者所有**，不受本许可证授权：
+
+- **OpenUtau**（OpenUtau.Core.dll、OpenUtau.Plugin.Builtin.dll、worldline.dll）
+  — MIT License，版权归 OpenUtau 项目及其贡献者
+- **VOICEVOX CORE** — MIT License，版权归 Hiroshiba Kazuyuki 及 VOICEVOX 项目
+- **Open JTalk 词典** — BSD License，版权归 Nara Institute of Science and Technology
+- **SudachiPy / SudachiDict** — Apache-2.0
+- **pypinyin** — MIT
+- **NumPy** — BSD-3-Clause
+- **Pillow** — MIT-CMU (HPND)
+- **requests** — Apache-2.0
+- **重音テト 声库** — 版权归其原作者及权利方，遵循其使用条款
+- **足立レイ 声库** — 版权归 missile 39 / Mechanical Girl，遵循其使用条款
+  （允许再配布与改造，须署名并保留原始 log.txt 记录）
+- **VOICEVOX 语音模型 0.vvm（四国めたん）** — 版权归 VOICEVOX 项目及各角色
+  权利方，其利用条款独立于本软件
+
+使用者需自行确认其使用场景符合上述各组件的许可条款。

@@ -2,6 +2,12 @@
 
 > 版本 **1.0.0**　|　Windows 10/11 x64
 
+> [!NOTE]
+> **项目状态：开发中，暂不提供下载。**
+> 软件本体（约 1.1 GB，含引擎、声库与运行时）尚在测试，
+> 目前仓库里只有介绍与说明文档。
+> 想第一时间知道发布消息，可以点右上角 **Watch → Releases only**。
+
 让 **UTAU 声库真正"开口说话"** 的桌面软件。
 
 由 **DeepSeek** 驱动角色对话，用 **UTAU 声库**发声，**VOICEVOX** 提供自然语调，
@@ -477,7 +483,7 @@ pip install requests sudachipy sudachidict_core pypinyin numpy pillow voicevox_c
 cd renderer && dotnet publish -c Release -r win-x64 --self-contained true
 ```
 
-打包发布（安装程序 / 绿色版）见 [ARCHITECTURE.md](ARCHITECTURE.md) 第四章。
+打包发布（安装程序 / 绿色版）的流程记在项目的 ARCHITECTURE.md 里（暂未公开）。
 
 ---
 
@@ -487,7 +493,7 @@ cd renderer && dotnet publish -c Release -r win-x64 --self-contained true
 
 随包分发的第三方组件（OpenUtau、.NET 运行时、NumPy、Pillow、requests、
 VOICEVOX CORE、SudachiPy、Open JTalk 词典、Tcl/Tk 等）各自版权归其作者所有，
-许可证原文与组件清单见 [licenses/00-索引.txt](licenses/00-索引.txt)。
+许可证原文与组件清单随软件分发在安装目录的 `licenses/` 下，其中 `00-索引.txt` 是组件清单。
 
 声库（重音テト / 足立レイ）与 VOICEVOX 语音模型有**独立的使用条款**，
 不适用本软件许可证，详见 singers/ 下各自的说明文件。
